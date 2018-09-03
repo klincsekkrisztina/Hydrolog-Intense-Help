@@ -1,2 +1,1 @@
-# intense-help
-Hydrolog Intense Commander Help
+Hydrolog help

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hydrolog help</title>
+  <link rel="stylesheet" type="text/css" href="help.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+  
+<body>
+  <div id="container">
+    <header>
+      <h1><a id="Vissza"></a>Hydrolog Intense Commander Help</h1>
+      <p> Az Intense Commander (IC) az Intense rendszerek konfigurációját, illetve a rendszerbe kötött PONSEL gyártmányú szenzorok kalibrációját könnyíti meg. Az IC az Intense rendszerek konzolos irányító felületét használja, működése hasonló a command line rendszerekhez.</p>
+    </header>
+    
+
+
+    <div class="row">
+        
+      
+      <div id="nav">
+        <ul>
+            <li><a href="#Kapcsolodas">Kapcsolódás az Intense rendszerhez</a></li>
+            <li><a href="#Locations">Locations fül</a></li>
+            <li><a href="#Conditions">Conditions fül</a></li>
+        </ul>
+      </div>
+      
+      
+      
+      <div id="article">
+        <h1><a id="Kapcsolodas"></a>Kapcsolódás az Intense rendszerhez</h1>
+
+          <ul>
+            <li>A kapcsolódáshoz az Intense rendszert USB-RS232 átalakítóval kapcsoljuk hozzá a PC-hez.</li>
+            <li>A kapcsolódáshoz nyomjuk meg a "fogaskerék" 1 gombot.</li>
+          </ul>
+
+          <img src="assets/buttons.jpg" alt="buttons" title="buttons" class="image small-responsive1" >
+      
+
+          <ul>
+            <li>Az alábbi párbeszéd ablakot kapjuk:</li>
+          </ul>
+
+          <img src="assets/settings.png"  alt="settings" title="settings" class="image small-responsive2">
+
+        <p>A <b>"Select Serial Port"</b> legördülő menüből válasszuk ki a megfelelő portot, ez egyéb USB-RS232 konverter távollétében a ttyUSB0 lesz. A többi paraméter a fenti ábráról leolvasható.</p>
+
+          <p>A kapcsolódáshoz nyomjuk meg a 2 gombot, majd a 3 gombot. Sikeres kapcsolódás esetén a megjelennek a konfigurtációs táblázatok oszlopai, illetve a fekete terminál ablakban láthatóvá válik a kommunikáció.</p>
+          
+        <button class="button button2 end"><a href="#Vissza">Vissza</a></button>
+
+        <h2><a id="Locations"></a>Locations fül</h2>
+
+          <p>A Locations fülön tudjuk a medenceazonosítókat kiolvasni, hozzáadni és törölni. A Read Locations gombbal lekérhetők a hardveren tárolt medenceazonosítók. A medenceazonosítók konfigurálását mindig ezzel a gombbal kezdjük. A gomb megnyomása után a táblázatban felsorolva megjelennek a tárolt medenceazonosítók.</p>
+
+          <img src="assets/locations_tab.png" alt="buttons" title="buttons" class="image responsive">
+
+          <p>Az <b>"Index"</b> az azonosítók sorszáma, hozzáadáskor ennek mindig eggyel nagyobbnak kell lennie mint a listában szereplő utolsó azonosító indexe. Új medenceazonosítót a szükséges adatok kitöltése után a Set Location gombbal tudunk a rendszerhez hozzáadni. Ha már létezik egy index és mi ugyanazon sorszámmal kívánunk azonosítót hozzáadni, a létező azonos indexű azonosító visszavonhatatlanul <b>felülíródik!</b></p>
+
+          <p>Adott medenceazonosító törléséhez kattintsunk a törölni kívánt azonosító sorának bármelyik cellájába es nyomjuk meg a Clear Location gombot.</p>
+
+          <p>A Clear all Locations gomb az összes létező azonosítót törli.</p>
+        
+          <button class="button button2 end"><a href="#Vissza">Vissza</a></button>
+
+
+
+        <h2><a id="Conditions"></a>Conditions fül</h2>
+
+          <p>A Conditions fülön tudjuk a beavatkozási feltételeket konfigurálni. A "Read Conditions" gombbal a tárolt a feltételek kérdezhetőek le. A feltételek konfigurálását mindig a feltételek beolvasásával kezdjük. A gomb megnyomása után a táblázatban megjelennek a tárolt feltételek:</p>
+
+          <img src="assets/conditions_tab.png" alt="conditions" title="conditions" class="image responsive">
+
+          <p>Az <b>"Index"</b> az azonosítók sorszáma, hozzáadáskor ennek mindig eggyel nagyobbnak kell lennie mint a listában szereplő utolsó azonosító indexe. Új feltételt a szükséges paraméterek kitöltése után a Set Condition gombbal tudunk a rendszerhez hozzáadni. Ha már létezik egy index és mi ugyanazon sorszámmal kívánunk feltételt hozzáadni, a létező azonos indexű feltétel visszavonhatatlanul <b>felülíródik!</b></p>
+
+          <p>Adott feltétel törléséhez kattintsunk a törölni kívánt azonosító sorának bármelyik cellájába es nyomjuk meg a Clear Condition gombot.</p>
+
+          <p>A Clear All Conditions gomb az összes létező feltételt törli.</p>
+          
+          <button class="button button2 end"><a href="#Vissza">Vissza</a></button>
+
+      </div>
+    </div>  
+  
+
+  <!--  <footer>
+    <p id="footer">Footer</p>
+  </footer> -->
+ 
+  </div>
+</body>
+</html>
+  
+  
+  
+
+    
+          
+
+          
+
+
