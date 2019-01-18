@@ -78,6 +78,7 @@ pre,table,fieldset,hr,img {
 header {
   text-align: center;
   padding: 1vw;
+  padding-top: 2vw;
   line-height: inherit;
 }
 
@@ -115,6 +116,10 @@ a:active {
     color: #14b4f0;
 }
 
+li {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
 
 li a {
   color: #fff;
